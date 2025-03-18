@@ -1,4 +1,4 @@
-🎲 **Sorteador de Nomes
+🎲 <h1>Sorteador de Nomes</h1>
 
 Um sorteador de nomes simples feito com HTML, CSS e JavaScript.
 
@@ -29,7 +29,7 @@ JavaScript → Lógica do sorteio
 
 1️⃣ Clone este repositório
 
-git clone https://github.com/seu-usuario/sorteador-nomes.git
+git clone https://github.com/Nicolas7720/Amigo-Secreto
 
 2️⃣ Acesse a pasta do projeto
 
