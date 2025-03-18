@@ -1,4 +1,4 @@
-🎲 <h1>Sorteador de Nomes</h1>
+<h2>🎲 Sorteador de Nomes</h2>
 
 Um sorteador de nomes simples feito com HTML, CSS e JavaScript.
 
