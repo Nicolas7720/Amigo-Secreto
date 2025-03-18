@@ -1,6 +1,6 @@
 body {
   background: #000;
-  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
 }
 
@@ -38,7 +38,7 @@ body {
   background-color: #000;
   border: 1px solid #1875e8;
   filter: drop-shadow(0px 0px 30px #1875e8);
-  height: 871px;
+  height: 100%;
   left: 50%;
   margin: 0 auto;
   position: absolute;
@@ -46,6 +46,7 @@ body {
   transform: translate(-50%, -50%);
   width: 75%;
   z-index: 1;
+  padding-bottom: 20%;
 }
 
 .content__corner-rectangle {
@@ -57,6 +58,7 @@ body {
   right: 32px;
   width: 511px;
   z-index: 3;
+  display: none;
 }
 
 .content__main {
@@ -65,6 +67,7 @@ body {
   gap: 80px;
   justify-content: start;
   padding: 100px;
+  height: 100vh;
 }
 
 .friends__container {
@@ -167,6 +170,10 @@ body {
   line-height: 160%;
   margin-top: 1rem;
 }
+#lista-sorteio{
+  display: flex;
+  width: 50vw;
+}
 
 .prizeDraw__title {
   color: #00f4bf;
@@ -185,6 +192,7 @@ body {
   display: flex;
   font-family: Inter;
   font-style: normal;
+  flex-wrap: wrap;
   gap: 48px;
 }
 
@@ -210,4 +218,14 @@ body {
   .page__image {
     display: block;
   }
+  .content{
+    padding-bottom: 0;
+  }
+  .section--results{
+    flex-wrap: nowrap;
+  }
+  .content__corner-rectangle{
+    display: block;
+  }
+
 }
